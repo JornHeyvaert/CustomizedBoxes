@@ -1,0 +1,30 @@
+body {
+    font-size: 20px;
+}
+
+body > div > ul {
+    list-style: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+/* icon unchecked */
+
+.checkBoxes input[type=checkbox]+label:before{
+    content: "\f096";
+    letter-spacing: 10px;
+}
+
+/* icon checked */
+
+.checkBoxes input[type=checkbox]:checked+label:before{
+    content: "\f046";
+    letter-spacing: 5px;
+}
