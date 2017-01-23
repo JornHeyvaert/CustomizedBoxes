@@ -1,0 +1,30 @@
+body {
+    font-size: 20px;
+}
+
+body > div > ul {
+    list-style: none;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+/* icon unchecked */
+
+.radioButtons input[type=radio]+label:before{
+    content: "\f1db";
+    letter-spacing: 10px;
+}
+
+/* icon checked */
+
+.radioButtons input[type=radio]:checked+label:before{
+    content: "\f192";
+    letter-spacing: 5px;
+}
