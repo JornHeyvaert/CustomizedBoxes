@@ -1,2 +1,2 @@
 # CustomizedBoxes
-Customized radio buttons and checkboxes in HTML (uses Font Awesome)
+Example of Customizing radio buttons and checkboxes in HTML (uses Font Awesome)
